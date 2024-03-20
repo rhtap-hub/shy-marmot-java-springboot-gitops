@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: shy-marmot-java-springboot-repository
+spec:
+  url: https://github.com/rhtap-hub/shy-marmot-java-springboot
